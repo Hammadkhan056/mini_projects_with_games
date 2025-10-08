@@ -15,7 +15,7 @@ while True:
   guesses += 1 
   user_guess = input("Make a guess: ")
   if user_guess.isdigit():
-    user_guess = int(user_guess)
+      user_guess = int(user_guess)
   else: 
     print("Please type a  number next time.")
     continue
